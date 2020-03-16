@@ -1,0 +1,109 @@
+body{
+    background-color: #d6eaf8;
+    padding: 0%;
+    margin: 0%;
+    font: 15px
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #73C6b6;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #229954 3px solid;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin: 10px;
+}
+header .highlight,header .current a{
+    color: #2c3e50;
+    font-weight: bold;
+
+}
+header a:hover{
+    color: #16a085;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 400px;
+    background-image: url('../images/image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#showcase h1{
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#getICT {
+    padding: 15px;
+    background-color: #73C6b6
+}
+#getICT h1{
+    float: left;
+}
+#getICT form{
+    float: right;
+    margin: 15px;
+}
+#getICT input{
+    padding: 4px;
+    height: 38px;
+    width: 250px;
+}
+.button1{
+    height: 38px;
+    background: #2c3e50;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+#trainings{
+    margin-top: 20px;
+}
+#trainings .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#trainings .box img{
+    width: 90px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #73C6b6;
+    color: #ffffff;
+    text-align: center
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
